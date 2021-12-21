@@ -14,9 +14,9 @@ const btn = document.querySelector('#btn')
 btn.addEventListener('click', () => {
     const input = document.querySelector('#input')
     numerosGanadores.includes(Number(input.value)) ? 
-    alert('Ganaste wacho ganaste')
+    swal("Ganaste", "Ganaste wacho ganaste", "success")
     :
-    alert('no ganaste la proxima sera')    
+    swal("No ganaste mala ahi","no ganaste la proxima sera", "error")    
 });
 
 console.log(numerosGanadores);

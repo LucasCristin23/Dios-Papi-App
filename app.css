@@ -1,0 +1,52 @@
+/*            font de la aplicacion
+font-family: 'Raleway', sans-serif;*/
+
+/****************RESET********************/
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration:none;
+    color:#e0dede;
+}a:hover{
+    color:gray;
+}
+body{
+    background-color:rgb(109, 26, 91);
+    color:black;
+    font-family:'Raleway', sans-serif;
+}
+
+/***********HEADER************/
+.header{
+  font-size: 3em;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  line-height: 0.1em;
+  margin:5% 2% 2% 2%;
+  letter-spacing:3px; 
+}
+span{
+    background-color: rgb(109, 26, 91);
+    padding:0 1rem 0 1rem;
+}
+.pHeader{
+    font-size:2rem;
+}
+
+/************MAIN*************/
+.divForm{
+    display: flex;
+    justify-content:center;
+}
+
+/************FOOTER************/
+.footer{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    font-size:1.5rem;
+    color: #e0dede;
+    background-color: #3b3b3b;
+    border-top: 1px solid black;
+}
